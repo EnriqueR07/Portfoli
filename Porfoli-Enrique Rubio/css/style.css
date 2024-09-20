@@ -1,9 +1,59 @@
+/* COMENTARI */
+
+*,
+*::before,
+*::after ¨{
+box-sizing: border-box;    
+}
+:roof {
+    --ff-primary:  font-family: "Inria Sans", sans-serif;
+    --font-secundaria:  font-family: "Gowun Batang", serif;
+
+    --pes-font: 300;
+    --pes-negreta: 900;
+
+    --ColorClaro: #7c7c7c;
+    --ColorOscuro: #000000;
+    --ColorResaltar: #fff168;
+
+    --tamany-h1: 3rem;
+    --tamany-h2: 2.25rem;
+    --tamany-h3: 1.25rem;
+    --tamany-body: 1rem;
+}
+@media (min-width:800px) {
+:root{
+--tamany-h1: 4rem;
+--tamany-h2: 3.75rem;
+--tamany-h3: 1.25rem;
+--tamany-body: 1.125rem;
+}
+}
 body{
-    background-color: rgb(27, 28, 29);
-    color: aliceblue;}
-    header{
-        background-color: rgb(83, 80, 76);
-    }
-li{
-    text-decoration: underline none;
+background: var(--ColorClaro);
+color: var(--ColorOscuro);
+margin: 0;
+font-family: var(--ff-primary);
+font-size: var(--tamany-body);
+line-height: 1.6;
+}
+img{
+display: block;
+max-width: 100%;
+}
+
+h1,
+h2,
+h3{
+    line-height: :1.1;
+    margin: 0;
+}
+h1{
+    font-size: var(--tamany-h1);
+}
+h2{
+    font-size: var(--tamany-h2);
+}
+h3{
+    font-size: var(--tamany-h3);
 }
