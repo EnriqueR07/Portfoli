@@ -45,7 +45,7 @@ max-width: 100%;
 h1,
 h2,
 h3{
-    line-height: :1.1;
+    line-height:1.1;
     margin: 0;
 }
 h1{
@@ -56,4 +56,25 @@ h2{
 }
 h3{
     font-size: var(--tamany-h3);
+}
+strong¨{
+    font-weight: var(--pes-negreta);
+}
+.titol{
+    margin-bottom: .25em;
+}
+.titol-intro{
+    font-weight: var(--pes-font);
+}
+.subtitol {
+    margin: 0;
+    font-size: var(--tamany-h3);
+}
+.subtitol-about {
+    background: var(--ColorResaltar);
+    font-family: var(--font-secundaria
+    )
+}
+.titol-into strong{
+    display: block;
 }
