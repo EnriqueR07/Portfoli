@@ -1,0 +1,154 @@
+/* COMENTARI */
+
+*,
+*::before,
+*::after ¨{
+box-sizing: border-box;    
+}
+:roof {
+    --ff-primary:  font-family: "Inria Sans", sans-serif;
+    --font-secundaria:  font-family: "Gowun Batang", serif;
+
+    --pes-font: 300;
+    --pes-negreta: 900;
+
+    --ColorClaro: #7c7c7c;
+    --ColorOscuro: #000000;
+    --ColorResaltar: #fff168;
+
+    --tamany-h1: 3rem;
+    --tamany-h2: 2.25rem;
+    --tamany-h3: 1.25rem;
+    --tamany-body: 1rem;
+}
+@media (min-width:800px) {
+:root{
+--tamany-h1: 4rem;
+--tamany-h2: 3.75rem;
+--tamany-h3: 1.25rem;
+--tamany-body: 1.125rem;
+}
+}
+body{
+background: var(--ColorClaro);
+color: var(--ColorOscuro);
+margin: 0;
+font-family: var(--ff-primary);
+font-size: var(--tamany-body);
+line-height: 1.6;
+}
+img{
+display: block;
+max-width: 100%;
+}
+
+h1,
+h2,
+h3{
+    line-height:1.1;
+    margin: 0;
+}
+h1{
+    font-size: var(--tamany-h1);
+}
+h2{
+    font-size: var(--tamany-h2);
+}
+h3{
+    font-size: var(--tamany-h3);
+}
+strong¨{
+    font-weight: var(--pes-negreta);
+}
+.titol{
+    margin-bottom: .25em;
+}
+.titol-intro{
+    font-weight: var(--pes-font);
+}
+.subtitol-about {
+    margin: 0;
+    font-size: var(--tamany-h3);
+    margin-bottom: 1em;
+}
+.subtitol-about {
+    background: var(--ColorResaltar);
+    font-family: var(--font-secundaria
+    )
+}
+.titol-into strong{
+    display: block;
+}
+section{
+    padding: 5em 2em;
+}
+.titol-intro{
+    position: relative;
+}
+@media (min-width:600px){
+    .titol-intro{
+        display:grid;
+        margin: 0 auto;
+        width: min-content;
+        grid-column-gap: 1em;
+        grid-template-areas:
+        "img title"
+        "img subtitle";
+        grid-template-columns: min-content max-content;
+    }
+}
+body{background-color: #5ab6cf;}
+header{background-color: rgb(205, 253, 253);}
+
+.intro-img{
+grid-area: img;
+min-width: 250px;
+}
+.subtitol-about{
+    align-items: start;
+    grid-column: -1/1;
+    grid-row: 2;
+    text-align:center;
+    position: relative;
+    left: -1.5em;
+    width: calc(100% + 1.25em)
+}
+
+header{ background-color: #5ab6cf;}
+body{background-color: aquamarine;}
+
+.misServicios{
+    background-color: var(--ColorOscuro);
+    color: var(--ColorClaro);
+    text-align:center;
+    background-image:url(/img/baixa.jfif);
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+.titulo-servicios{
+    color: var(--ColorOscuro);
+    position: relative;
+}
+.titol-serveis::after{
+    content: '';
+    width: 3em;
+    left:  1px;
+    margin: 0.5em auto 1em;
+    background: var(--ColorClaro)
+}
+@media(min-width:800px){
+    .servicios{
+        display: flex;
+        max-width: 1000px;
+        margin-left:auto ;
+        margin-right: auto;
+    }
+    .servicio + .servicio{
+        margin-left: 2em;
+    }
+
+}
+.servicio{
+    max-width: 500px;
+    margin: 0 auto
+}
