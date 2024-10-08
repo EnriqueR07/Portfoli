@@ -253,7 +253,50 @@ h3 {
     transform: scale(5.0);
     opacity: .5;
 }
+.btn{
+    display: inline-block;
+    background-color: var(--colorResaltar);
+    padding: 25px;
+    text-decoration: none;
+    cursor:pointer;
+    font-size: 0.8rem;
+    font-weight: var(--pes-negreta);
+    text-transform:uppercase ;
+    letter-spacing: 2px;
+    transition: transform 200ms ease-in-out;
+}
+.footer{
+    background-color: var(--colorFosc);
+    text-align: center;
+    color: var(--colorResaltar);
+    font-size: var(--tamany-h3);
+}
+.footer a {
+    text-decoration: none;
+    color:#77f5e0
+}
 
+.link{
+    font-size: var(--pes-negreta);
+}
 
+.link:hover{
+    text-decoration: underline;
+}
+.item-list{
+    padding: 0.5em;
+    margin: 0em 0,5em;
+}
+.item-list:hover, link:hover{
+    opacity: 0.7;
+}
 .porfoli-img{animation:rotate-top 0.6s linear} @keyframes rotate-top{0%{transform:rotate(0);transform-origin:top}100%{transform:rotate(360deg);transform-origin:top}}
-/* Comentario 
+.lista{
+    display:flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0em 0em;
+
+    
+    
+}
