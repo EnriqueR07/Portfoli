@@ -13,6 +13,9 @@
         rel="stylesheet">
 
     <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js
+    "></script>
+    
     <script src="https://kit.fontawesome.com/cc661de9f1.js" crossorigin="anonymous"></script>
     <title>Enrique</title>
 </head>
@@ -22,10 +25,10 @@
         <div class="logo">
             <img src="./img/enrique-rubio-high-resolution-logo-transparent.png"  >
         </div>
-        <button>
-            <span></span>
+        <button class="desplegable">
+            <span id="mm" class="hamburger"></span>
         </button>
-        <nav class="menu">
+        <nav id="m"  class="menu">
             <ul class="menu-lista">
                 <div>
                     <li>
@@ -122,6 +125,9 @@
         </ul>
     </footer>
 </body>
-
+<script>
+    document.getElementById("mm").addEventListener("clicl", function(){document.getElementById("m").classList.add("X");
+    })
+</script>
 
 </html>
